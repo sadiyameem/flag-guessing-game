@@ -1,0 +1,21 @@
+[
+    {
+        "img": "bolivia.jpg",
+        "options": [
+            "argentina",
+            "chile",
+            "bolivia"
+        ],
+        "right_answer": "boliva"
+    },
+    {
+        "img": "argentina.jpg",
+        "options": [
+            "bolivia",
+            "argentina",
+            "mexico"
+        ],
+        "right_answer": "argentina"
+    },
+    {}
+]
