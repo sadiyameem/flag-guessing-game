@@ -177,3 +177,31 @@ h3 {
 .flags .flag-options ul li.wrong {
     background-color: red;
 }
+
+@media(min-width: 375px) {
+    h1, h3, .box .count {
+        font-size: 3rem;
+    }
+
+    .flags .flag-img,
+    .flags .flag-options ul {
+        width: 30rem;
+    }
+
+    .flags .flag-options ul li {
+        width: 100%;
+    }
+}
+
+@media(min-width: 768px) {
+    h1 {
+        font-size: 6rem;
+    }
+}
+
+@media(min-width: 991px) {
+    .flags .flag-options ul li:hover {
+        background-color: var(--black);
+        color: var(--white);
+    }
+}
