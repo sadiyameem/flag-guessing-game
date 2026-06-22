@@ -2,20 +2,190 @@
     {
         "img": "bolivia.jpg",
         "options": [
-            "argentina",
-            "chile",
-            "bolivia"
+            "Argentina",
+            "Chile",
+            "Bolivia"
         ],
-        "right_answer": "boliva"
+        "right_answer": "Bolivia"
     },
     {
         "img": "argentina.jpg",
         "options": [
-            "bolivia",
-            "argentina",
-            "mexico"
+            "Bolivia",
+            "Argentina",
+            "Mexico"
         ],
-        "right_answer": "argentina"
+        "right_answer": "Argentina"
     },
-    {}
+    {
+        "img": "chile.png",
+        "options": [
+            "Chile",
+            "Costa rica",
+            "Cuba"
+        ],
+        "right_answer": "Chile"
+    },
+    {
+        "img": "colombia.png",
+        "options": [
+            "Dominican-republic",
+            "Colombia",
+            "Ecuador"
+        ],
+        "right_answer": "Colombia"
+    },
+    {
+        "img": "costa-rica.jpg",
+        "options": [
+            "Ecuador",
+            "Equatorial-guinea",
+            "Costa-rica"
+        ],
+        "right_answer": "Costa-rica"
+    },
+    {
+        "img": "cuba.png",
+        "options": [
+            "Cuba",
+            "Dominican-republic",
+            "El-salvador"
+        ],
+        "right_answer": "Cuba"
+    },
+    {
+        "img": "dominican-republic.jpg",
+        "options": [
+            "Dominican-Republic",
+            "Guatemala",
+            "Honduras"
+        ],
+        "right_answer": "Dominican-Republic"
+    },
+    {
+        "img": "Ecuador.jpg",
+        "options": [
+            "Mexico",
+            "Ecuador",
+            "Equatorial-Guinea"
+        ],
+        "right_answer": "Ecuador"
+    },
+    {
+        "img": "El-Salvador.png",
+        "options": [
+            "El-Salvador",
+            "Cuba",
+            "Argentina"
+        ],
+        "right_answer": "El-Salvador"
+    },
+    {
+        "img": "equatorial-guinea.png",
+        "options": [
+            "Guatemala",
+            "Equatorial-Guinea",
+            "Nicaragua"
+        ],
+        "right_answer": "Equatorial-Guinea"
+    },
+    {
+        "img": "guatemala.jpg",
+        "options": [
+            "Guatemala",
+            "Honduras",
+            "Mexico"
+        ],
+        "right_answer": "Guatemala"
+    },
+    {
+        "img": "honduras.jpg",
+        "options": [
+            "Nicaragua",
+            "Dominican-Republic",
+            "Honduras"
+        ],
+        "right_answer": "Honduras"
+    },
+    {
+        "img": "mexico.png",
+        "options": [
+            "Panama",
+            "Mexico",
+            "Nicaragua"
+        ],
+        "right_answer": "Mexico"
+    },
+    {
+        "img": "nicaragua.jpg",
+        "options": [
+            "Nicaragua",
+            "Mexico",
+            "El-Salvador"
+        ],
+        "right_answer": "Nicaragua"
+    },
+    {
+        "img": "panama.jpg",
+        "options": [
+            "Cuba",
+            "Panama",
+            "Chile"
+        ],
+        "right_answer": "Panama"
+    },
+    {
+        "img": "paraguay.jpg",
+        "options": [
+            "panama",
+            "peru",
+            "paraguay"
+        ],
+        "right_answer": "paraguay"
+    },
+    {
+        "img": "puerto-rico.png",
+        "options": [
+            "puerto-rico",
+            "nicaragua",
+            "el-salvador"
+        ],
+        "right_answer": "puerto-rico"
+    },
+    {
+        "img": "spain.jpg",
+        "options": [
+            "puerto-rico",
+            "uruguay",
+            "spain"
+        ],
+        "right_answer": "spain"
+    },
+    {
+        "img": "uruguay.jpg",
+        "options": [
+            "uruguay",
+            "bolivia",
+            "argentina"
+        ],
+        "right_answer": "uruguay"
+    },
+    {
+        "img": "venezuela.png",
+        "options": [
+            "colombia",
+            "ecuador",
+            "venezuela"
+        ],
+        "right_answer": "venezuela"
+    },
+    {
+        "img": "peru.png",
+        "options": [
+            "peru",
+            "uruguay",
+            "equatorial-guinea"
+        ],
+        "right_answer": "peru"
+    }
 ]

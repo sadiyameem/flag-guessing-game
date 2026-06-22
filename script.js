@@ -21,7 +21,7 @@ function getQuestions() {
             questionNum(qCount);
             questions = questions.sort(() => Math.random() - Math.random()).slice(0, 10);
 
-            addQuestionData(questions[currectIndex], qCount);
+            addQuestionData(questions[currentIndex], qCount);
 
             flagLis.forEach(li => {
                 li.addEventListener('click', () => {
@@ -30,16 +30,16 @@ function getQuestions() {
                     currentIndex++;
 
                     setTimeout(() => {
-                        checkAnswer(rightAnswer, qcount);
+                        checkAnswer(rightAnswer, qCount);
                     }, 500);
 
-                    setTimer(() => {
+                    setTimeout(() => {
                         flagImg.src = '';
                         li.classList.remove('active');
                         li.classList.remove('success');
                         li.classList.remove('wrong');
 
-                        addQuestData(questions[currentIndex], qCount);
+                        addQuestionData(questions[currentIndex], qCount);
                     }, 1000);
 
                     setTimeout(() => {
@@ -65,14 +65,15 @@ function addQuestionData(obj, count) {
         flagLis.forEach((li, i) => {
             li.id = `answer_${i+1}`;
             li.dataset.answer = obj[`options`][i];
+            li.innerHTML = obj[`options`][i];
         });
     }
 }
 
-function checkanswer(rAnswer, count) {
+function checkAnswer(rAnswer, count) {
     let choosenAnswer;
     for (let i = 0; i < flagLis.length; i++) {
-        if (flagLis[1].classList.contains('active')) {
+        if (flagLis[i].classList.contains('active')) {
             choosenAnswer = flagLis[i].dataset.answer;
             if (rAnswer === choosenAnswer) {
                 flagLis[i].classList.add('success');
@@ -89,7 +90,7 @@ function showResults(count) {
     if (currentIndex === count) {
         flagOptions.innerHTML = '';
         flagImgDiv.innerHTML = '';
-        scoreDiv.computedStyleMap.display = 'block';
+        scoreDiv.style.display = 'block';
         correctAns.innerHTML = rightAnswer;
         incorrectAns.innerHTML = count - rightAnswer;
     }
