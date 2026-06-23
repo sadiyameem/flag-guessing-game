@@ -19,7 +19,7 @@ html {
 }
 
 body {
-    background: url(img/palm-trees.jpg);
+    background: url(img/palm-trees.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     min-height: 100vh;
