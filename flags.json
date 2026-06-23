@@ -137,55 +137,55 @@
     {
         "img": "paraguay.jpg",
         "options": [
-            "panama",
-            "peru",
-            "paraguay"
+            "Panama",
+            "Peru",
+            "Paraguay"
         ],
-        "right_answer": "paraguay"
+        "right_answer": "Paraguay"
     },
     {
         "img": "puerto-rico.png",
         "options": [
-            "puerto-rico",
-            "nicaragua",
-            "el-salvador"
+            "Puerto-Rico",
+            "Nicaragua",
+            "El-Salvador"
         ],
-        "right_answer": "puerto-rico"
+        "right_answer": "Puerto-Rico"
     },
     {
         "img": "spain.jpg",
         "options": [
-            "puerto-rico",
-            "uruguay",
-            "spain"
+            "Puerto-Rico",
+            "Uruguay",
+            "Spain"
         ],
-        "right_answer": "spain"
+        "right_answer": "Spain"
     },
     {
         "img": "uruguay.jpg",
         "options": [
-            "uruguay",
-            "bolivia",
-            "argentina"
+            "Uruguay",
+            "Bolivia",
+            "Argentina"
         ],
-        "right_answer": "uruguay"
+        "right_answer": "Uruguay"
     },
     {
         "img": "venezuela.png",
         "options": [
-            "colombia",
-            "ecuador",
-            "venezuela"
+            "Colombia",
+            "Ecuador",
+            "Venezuela"
         ],
-        "right_answer": "venezuela"
+        "right_answer": "Venezuela"
     },
     {
         "img": "peru.png",
         "options": [
-            "peru",
-            "uruguay",
-            "equatorial-guinea"
+            "Peru",
+            "Uruguay",
+            "Equatorial-Guinea"
         ],
-        "right_answer": "peru"
+        "right_answer": "Peru"
     }
 ]
