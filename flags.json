@@ -63,7 +63,7 @@
         "right_answer": "Dominican-Republic"
     },
     {
-        "img": "Ecuador.jpg",
+        "img": "ecuador.jpg",
         "options": [
             "Mexico",
             "Ecuador",
@@ -72,7 +72,7 @@
         "right_answer": "Ecuador"
     },
     {
-        "img": "El-Salvador.png",
+        "img": "el-salvador.png",
         "options": [
             "El-Salvador",
             "Cuba",

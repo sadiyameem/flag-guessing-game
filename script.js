@@ -49,7 +49,7 @@ function getQuestions() {
             });
         }
     }
-    myRequest.open("GET", "js/flag_questions.json", true);
+    myRequest.open("GET", "flag_questions.json", true);
     myRequest.send();
 }
 
